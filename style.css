@@ -1,0 +1,40 @@
+#all {
+    display: grid;
+    grid-template-columns:600px 500px 400px;
+    grid-template-rows: 500px 500px 500px;
+
+
+
+}
+ #titlebar {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top:100px;
+ }
+
+t1 {
+font-size: 75px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left:380px;
+background-color:lightblue;
+grid-column-start:span;
+font-weight: bold;
+
+
+}
+
+p {
+    text-align:center;
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    font-weight:bold;
+    margin-left: 130px;
+    margin-top:750px;
+    
+}
+
+
+
+
+
