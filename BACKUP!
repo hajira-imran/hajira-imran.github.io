@@ -54,5 +54,33 @@ p {
 
 
 HTML-
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <meta charset=“UTF-8” />
+    <title>Hajira Imran</title>
+    <link rel="shortcut icon" href="images/spider.jpg" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<div id="all">
+    <div id="titlebar">
+<t1>Welcome to my personal page </t1>
+</div>
 
+
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#about">About</a>
+  </div>
+
+<p>Hajira Imran</p>
+</head>
+
+
+
+</div>
+</body>
+</html>
 
