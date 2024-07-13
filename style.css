@@ -1,6 +1,6 @@
 #all {
     display: grid;
-    grid-template-columns: 600px 700px 100px 600px;
+    grid-template-columns: 600px 700px 500px;
     grid-template-rows: 350px 300px 250px 2000px;
     text-align: center;
     background-color: #ffffff;
@@ -14,6 +14,7 @@
     margin-top: 120px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    
 }
     
 .topnav {
@@ -104,3 +105,96 @@ input[type=text], input[type=password] {
   margin-top:900px;
 
 }
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin-top:200px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.favstuff {
+  
+  
+  display:inline-grid;
+  grid-template-columns: 400px 400px ;
+  grid-template-rows: 150px 400px;
+  font-size:20px;
+ 
+
+}
+
+#top {
+  margin-top:250px;
+  font-weight:bold;
+  font-size: 50px;
+  margin-bottom:40px;
+}
+
+#columnone {
+  grid-row-start:1;
+  background-color: #ffa1f379;
+ 
+  grid-column-start:2;
+  
+  margin-left: 50px;
+}
+#c { 
+  
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#columntwo {
+  background-color: #ffa1f379;
+  grid-column-start:2;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left: 50px;
+}
+#columns {
+ font-size:21px;
+ background-color:rgba(160, 194, 255, 0.829);
+}
+
+#columnstwo {
+  margin-top:20px;
+  grid-column-start: 1;
+  grid-row-start:2;
+}
+
+
+
+
+
+
+
+
+
